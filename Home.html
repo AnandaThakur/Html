@@ -1,10 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head >
-    <title>Home</title>
-    <a style="text-align: center; display: block; margin-top: 5%; text-decoration: none; font-family: sans-serif; font-size: 1.5rem; font-weight: bold; color: #000;" href="./display.html" target="Display">Home</a>
-  </head>
-  <body>
-  </body>
-</html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
 
+  .home-banner {
+    background-color: #154a9e;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+
+  .home-banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .home-banner p {
+    font-size: 18px;
+  }
+
+  .featured-products {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 calc(33.33% - 40px);
+  }
+
+  .product h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .product p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+</style>
+<title>Gadget Store</title>
+</head>
+<body>
+  <div class="home-banner">
+    <h1>Welcome to Our Gadget Store</h1>
+    <p>Get the gadgets at better prices along with after sales service</p>
+  </div>
+  
+  <div class="featured-products">
+    <div class="product">
+      <h2>Smartphone</h2>
+      <p>Stay connected with the latest smartphones.</p>
+    </div>
+    <div class="product">
+      <h2>Laptop</h2> 
+      <p>Powerful laptops for work and play.</p>
+    </div>
+    <div class="product">
+      <h2>Headphones</h2>
+      <p>Immerse yourself in music with high-quality headphones.</p>
+    </div>
+  </div>
+</body>
+</html>
