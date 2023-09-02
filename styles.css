@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #6082d7;
+    background-color: #154a9e;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -73,5 +73,5 @@ nav a {
 }
 
 .buy-button:hover {
-    background-color: #555;
+    background-color: #9dadf0;
 }
